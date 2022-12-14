@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+#nav-bar {
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    height: 40px;
+    padding-left: 20px;
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-sort-desc {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.navbar a:hover {
+    transform: translateY(-3px)
+}
+
+#banner {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.title-text1 {
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.title-text2 {
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+
+.imagem-financa {
+    max-width: 30vw;
+    margin-left: 15%;
+    
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+.social-icons img{
+    width: 50px;
+    transition: 0.5s;
+}
+
+.nos-encontre {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px)
+}
+
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+}
+.footer-img{
+   width: 100%; 
+}
+
+.form-register {
+    margin: 0 auto;
+    max-width: 400px;
+    padding-top: 200px;
+}
+
+@media screen and (max-width:900px){
+    .imagem-financa{
+        display:none;
+    }
+}
